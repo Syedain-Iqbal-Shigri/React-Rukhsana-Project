@@ -5,6 +5,7 @@ This project is a travel & tours website clone built with React, Vite, and Tailw
 
 **Author:** Rukhsana
 **Stack:** React 19, Vite, Tailwind CSS v4, React Router DOM
+**GitHub:** [@Syedain-Iqbal-Shigri](https://github.com/Syedain-Iqbal-Shigri)
 
 ---
 
