@@ -1,6 +1,10 @@
 # Rukhsana React App
 
-> 💐 Dedicated to **Rukhsana** — with love and respect.
+A React web application built by **Rukhsana** as part of her front-end development journey.
+This project is a travel & tours website clone built with React, Vite, and Tailwind CSS.
+
+**Author:** Rukhsana
+**Stack:** React 19, Vite, Tailwind CSS v4, React Router DOM
 
 ---
 
