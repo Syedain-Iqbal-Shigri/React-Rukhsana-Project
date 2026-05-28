@@ -1,6 +1,6 @@
 import { FaCheck, FaUsers, FaMountain, FaHandshake } from 'react-icons/fa'
-import SectionTitle from '../components/ui/SectionTitle'
-import WhyChooseUs from '../components/sections/WhyChooseUs'
+import SectionTitle from '../Components/ui/SectionTitle'
+import WhyChooseUs from '../Components/sections/WhyChooseUs'
 
 const MILESTONES = [
   { icon: FaMountain, value: '500+', label: 'Happy Travelers' },

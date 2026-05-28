@@ -1,8 +1,8 @@
-import Hero from '../components/sections/Hero'
-import WhyChooseUs from '../components/sections/WhyChooseUs'
-import WhatWeOffer from '../components/sections/WhatWeOffer'
-import OurServices from '../components/sections/OurServices'
-import TourPackages from '../components/sections/TourPackages'
+import Hero from '../Components/sections/Hero'
+import WhyChooseUs from '../Components/sections/WhyChooseUs'
+import WhatWeOffer from '../Components/sections/WhatWeOffer'
+import OurServices from '../Components/sections/OurServices'
+import TourPackages from '../Components/sections/TourPackages'
 
 export default function Home() {
   return (

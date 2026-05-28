@@ -1,5 +1,5 @@
-import OurServices from '../components/sections/OurServices'
-import TourPackages from '../components/sections/TourPackages'
+import OurServices from '../Components/sections/OurServices'
+import TourPackages from '../Components/sections/TourPackages'
 
 export default function Services() {
   return (
