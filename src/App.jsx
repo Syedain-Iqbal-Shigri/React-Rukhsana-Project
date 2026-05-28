@@ -1,11 +1,11 @@
 import { Routes, Route } from 'react-router-dom'
-import Layout from './components/layout/Layout'
-import Home from './pages/Home'
-import About from './pages/About'
-import Services from './pages/Services'
-import RentACar from './pages/RentACar'
-import Blogs from './pages/Blogs'
-import Contact from './pages/Contact'
+import Layout from './Components/layout/Layout'
+import Home from './Pages/Home'
+import About from './Pages/About'
+import Services from './Pages/Services'
+import RentACar from './Pages/RentACar'
+import Blogs from './Pages/Blogs'
+import Contact from './Pages/Contact'
 
 export default function App() {
   return (
