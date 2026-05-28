@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+@theme {
+  --font-family-sans: 'Poppins', sans-serif;
+
+  --color-primary:       #1a3a5c;
+  --color-primary-dark:  #0f2540;
+  --color-primary-light: #2a4f7a;
+  --color-accent:        #e67e22;
+  --color-accent-dark:   #c96810;
+  --color-navy:          #0d1b2a;
+  --color-soft:          #f5f7fa;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  margin: 0;
+}
