@@ -35,7 +35,7 @@ export default function About() {
           <div className="rounded-2xl overflow-hidden shadow-xl">
             <img
               src="https://picsum.photos/seed/skarduabout/900/600"
-              alt="About Ilyass Kardu Travels"
+              alt="About Ilyas Skardu Travels"
               className="w-full h-96 object-cover"
             />
           </div>
@@ -48,7 +48,7 @@ export default function About() {
             </h2>
             <div className="h-1 w-16 bg-accent rounded-full mb-6" />
             <p className="text-gray-600 leading-relaxed mb-4">
-              Ilyass Kardu Travels &amp; Tours was founded with a single mission: to share the
+              Ilyas Skardu Travels &amp; Tours was founded with a single mission: to share the
               breathtaking beauty of Skardu and Gilgit-Baltistan with travelers from around the
               world. With over a decade of experience, we have become one of the most trusted tour
               operators in the region.
@@ -69,7 +69,7 @@ export default function About() {
                 '24/7 On-Trip Support',
               ].map((item) => (
                 <li key={item} className="flex items-center gap-2 text-sm text-gray-700">
-                  <FaCheck className="text-accent flex-shrink-0 text-xs" />
+                  <FaCheck className="text-accent shrink-0 text-xs" />
                   {item}
                 </li>
               ))}

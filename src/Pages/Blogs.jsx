@@ -9,7 +9,7 @@ const POSTS = [
       'Skardu is a treasure trove of natural wonders. From the serene Satpara Lake to the vast Deosai Plains, discover the ten places you simply cannot miss on your trip.',
     image: 'https://picsum.photos/seed/blog1/800/500',
     date: 'May 15, 2025',
-    author: 'Ilyass Khan',
+    author: 'Ilyas Khan',
     category: 'Travel Guide',
   },
   {
@@ -19,7 +19,7 @@ const POSTS = [
       'Known as the "Land of Giants," Deosai is one of the world\'s highest plateaus. Learn the best time to visit, what to pack, and how to spot the rare Himalayan brown bear.',
     image: 'https://picsum.photos/seed/blog2/800/500',
     date: 'April 28, 2025',
-    author: 'Ilyass Khan',
+    author: 'Ilyas Khan',
     category: 'Adventure',
   },
   {
@@ -29,7 +29,7 @@ const POSTS = [
       'Winter transforms Skardu into a magical snow-covered wonderland. Here\'s everything you need to know about visiting Skardu between November and February.',
     image: 'https://picsum.photos/seed/blog3/800/500',
     date: 'March 10, 2025',
-    author: 'Ilyass Khan',
+    author: 'Ilyas Khan',
     category: 'Seasonal Guide',
   },
   {
@@ -39,7 +39,7 @@ const POSTS = [
       'The Baltoro Glacier trek is one of the world\'s great mountain adventures, leading to the base of K2. Read our detailed day-by-day guide for first-timers.',
     image: 'https://picsum.photos/seed/blog4/800/500',
     date: 'February 2, 2025',
-    author: 'Ilyass Khan',
+    author: 'Ilyas Khan',
     category: 'Trekking',
   },
   {
@@ -49,7 +49,7 @@ const POSTS = [
       'Shigar Fort, now a luxury heritage hotel, is a stunning 17th-century palace nestled in the Shigar Valley. Discover its rich history and how to plan your visit.',
     image: 'https://picsum.photos/seed/blog5/800/500',
     date: 'January 18, 2025',
-    author: 'Ilyass Khan',
+    author: 'Ilyas Khan',
     category: 'History & Culture',
   },
   {
@@ -59,7 +59,7 @@ const POSTS = [
       'Whether you\'re a professional photographer or just love great travel photos, Gilgit-Baltistan offers unmatched backdrops. Here are the spots that will blow your mind.',
     image: 'https://picsum.photos/seed/blog6/800/500',
     date: 'December 5, 2024',
-    author: 'Ilyass Khan',
+    author: 'Ilyas Khan',
     category: 'Photography',
   },
 ]

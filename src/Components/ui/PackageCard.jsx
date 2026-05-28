@@ -1,6 +1,8 @@
 import { FaClock, FaUsers, FaCheck } from 'react-icons/fa'
+import { useBooking } from '../../context/BookingContext'
 
 export default function PackageCard({ pkg }) {
+  const { openModal } = useBooking()
   const priceFormatted = pkg.price.toLocaleString('en-PK')
 
   return (
@@ -18,7 +20,7 @@ export default function PackageCard({ pkg }) {
           className="w-full h-48 object-cover group-hover:scale-105 transition-transform duration-500"
           loading="lazy"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-primary-dark/60 to-transparent" />
+        <div className="absolute inset-0 bg-linear-to-t from-primary-dark/60 to-transparent" />
         <div className="absolute bottom-3 left-4">
           <h3 className="text-white text-lg font-bold drop-shadow">{pkg.title}</h3>
         </div>
@@ -40,7 +42,7 @@ export default function PackageCard({ pkg }) {
         <ul className="space-y-1.5 mb-4 flex-1">
           {pkg.highlights.map((item) => (
             <li key={item} className="flex items-start gap-2 text-sm text-gray-600">
-              <FaCheck className="text-accent mt-0.5 flex-shrink-0 text-xs" />
+              <FaCheck className="text-accent mt-0.5 shrink-0 text-xs" />
               {item}
             </li>
           ))}
@@ -65,7 +67,10 @@ export default function PackageCard({ pkg }) {
             </p>
             <p className="text-xs text-gray-400 leading-none mt-0.5">per person</p>
           </div>
-          <button className="bg-accent hover:bg-accent-dark text-white px-4 py-2 rounded-full text-xs font-semibold transition-colors duration-300 whitespace-nowrap">
+          <button
+            onClick={() => openModal(pkg)}
+            className="bg-accent hover:bg-accent-dark text-white px-4 py-2 rounded-full text-xs font-semibold transition-colors duration-300 whitespace-nowrap hover:shadow-lg hover:shadow-accent/30"
+          >
             Book Now
           </button>
         </div>
